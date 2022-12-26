@@ -1,9 +1,8 @@
 import string
 
-alpha = string.ascii_lowercase
-
 
 def print_rangoli(size):
+    alpha = string.ascii_lowercase
     list = []
     for i in range(n):
         s = "-".join(alpha[i:n])
